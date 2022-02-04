@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCreationBooks.com</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    
+    
+}
+.navimg{
+    
+}
+#navbar{
+        display: flex;
+         flex-direction: column; 
+         /* border-radius: 13px; */
+         align-items: center; 
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    #navbar ul{
+        display: flex;
+    }
+
+
+    #navbar ul li{
+    
+        display: flex;
+        list-style: none;
+
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+
+}
+#navbar::before{
+    content: "";
+    background-color: #000000;
+    border-radius: 13px 13px;
+    opacity: 2;
+    position: absolute;
+    /* display: flex; */
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.sec1{
+    height: 299px;
+    /* border: 2px solid red; */
+    
+    justify-content: center;
+
+    /* align-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec1 .para1{
+    text-align: center;
+    font-family: 'Mina', sans-serif; ;
+}
+.head1{
+    font-size: 1rem;
+}
+.sec1::before{
+    content: "";
+    background: url(img/Online-Sites-to-Publish-Your-Books-for-Free.jpg) no-repeat center center/cover;
+    opacity: 0.5;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.btn{
+    margin: 13px 13px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.2rem;
+    /* color: white; */
+    border-radius: 8px 8px;
+}
+.btn a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.btn a:hover{
+    background-color: black;
+    color: white;
+}
+.bookname{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 13px 13px;
+}
+.pdf embed{
+    height: 800px;
+    width: 900px;
+    margin: auto;
+    display: block;
+    padding: 65px;
+    border: 2px solid black;
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px  14px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+footer img{
+    /* float: left; */
+    /* align-items: center; */
+    
+}
+@media (max-width:1170px) {
+    
+    .pdf embed{
+    height: 600px;
+    width: 300px;
+    /* margin: auto; */
+    /* display: block; */
+    padding: 65px;
+    border: 2px solid black;
+}
+}
+
+    </style>
+    
+    
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navimg">
+            <img src="img/LOGO.png" height="170px" width="300px" alt="MyCreationBooks.com">
+            <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+
+
+            
+
+        </div>
+        <ul>
+            <li><a href="MyCreationBooks..com.html">Home</a></li>
+            <li><a href="books.html">Book</a></li>
+            <li><a href="collection.html">Collection</a></li>
+            <li><a href="about.html">Abouts</a></li>
+        </ul>
+    </nav>
+
+    <section class="sec1">
+        <h1 class="header1">Welcome to MyCreationBook.com</h1>
+        <br>
+        <p class="para1">আপনারা আমাদের এই website থেকে ফ্রি তে আমাদের বিভিন্ন বই পরতে পারবেন। এখানে আপনারা books section থেকে সরাসরি বই পরতে পারবেন। অথবা আপনারা collection section এ যেয়ে MCB Universe & others নামে দুইটা সেকশন আছে। ওই বক্স এ read button এ ক্লিক করলে আপনারা বই পরতে পারবেন।</p>
+        <button class="btn"> <a href="books.html" target="_blank">Read Now</a> </button>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="bookname">The Orgin of Hypothecris issue 1</h2>
+    
+    <br>
+ <div class="pdf">
+     <embed src="The Orgin of Hypothecris issue 1.pdf" type="application/pdf">
+ </div>
+ 
+ <footer>
+    Copyright &copy;2022 www.MyCreationBooks.com.All rights reserved!
+    <br>
+    <img src="img/4f6ecc0091be306bc51e4c0c554ee6e4-removebg-preview.png" height="50px " width="50px" alt="">
+    <img src="img/twitter-logo-3d-model-obj-c4d-removebg-preview.png" height="50px" width="50px" alt="">
+    <img src="img/youtube-750x750-removebg-preview.png"height="50px" width="50px" alt="">
+</footer>
